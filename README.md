@@ -114,7 +114,7 @@ Ingested and normalized DNS log data to identify communication patterns and pote
 
 - **CompTIA CySA+** (Cybersecurity Analyst) - Expected October 2025
 - **Splunk Core Certified Power User** - 2025
-- **CompTIA Security+**
+- **CompTIA Security+** - 2025
 
 ## Professional Training
 
