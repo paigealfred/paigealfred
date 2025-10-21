@@ -110,7 +110,31 @@ Ingested and normalized DNS log data to identify communication patterns and pote
 
 ---
 
-## Certifications
+### 📁 [SMB Lateral Movement Investigation](https://github.com/paigealfred/smb-lateral-movement-investigation)
+**Tools:** Elastic SIEM, Zeek
+
+Traced internal file access patterns using SMB protocol analysis to identify origin point of sensitive document before external exfiltration. Demonstrated multi-stage attack investigation tracking lateral movement within enterprise network.
+
+**Key Results:**
+- Identified SMB protocol as internal file access method before FTP exfiltration
+- Traced sensitive document movement from internal host (172.16.100.3) to external server
+- Mapped complete attack chain from internal access to external data theft
+- Applied KQL file tracking queries to investigate file movement across network protocols
+
+---
+
+### 🔐 [Multi-Protocol C2 Detection](https://github.com/paigealfred/multi-protocol-c2-detection)
+**Tools:** Elastic SIEM, Zeek, Wireshark
+
+Identified concurrent SSL/TLS encrypted C2 channel coordinating FTP data exfiltration between same hosts. Demonstrated advanced protocol correlation to detect attacker OPSEC using separate command and control infrastructure.
+
+**Key Results:**
+- Discovered SSL/TLS encrypted session operating alongside FTP exfiltration (same source/destination)
+- Correlated protocol timing to determine SSL connection was C2 channel coordinating FTP transfers
+- Analyzed multi-protocol attack infrastructure showing attacker operational security
+- Demonstrated ability to expand investigation beyond single-protocol analysis
+
+---
 
 - **CompTIA CySA+** (Cybersecurity Analyst) - Expected October 2025
 - **Splunk Core Certified Power User** - 2025
