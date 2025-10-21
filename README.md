@@ -124,7 +124,7 @@ Traced internal file access patterns using SMB protocol analysis to identify ori
 ---
 
 ### 🔐 [Multi-Protocol C2 Detection](https://github.com/paigealfred/Multi-Protocol-Correlation-C2-Channel-Detection-)
-**Tools:** Elastic SIEM, Zeek, Wireshark
+**Tools:** Elastic SIEM, Zeek
 
 Identified concurrent SSL/TLS encrypted C2 channel coordinating FTP data exfiltration between same hosts. Demonstrated advanced protocol correlation to detect attacker OPSEC using separate command and control infrastructure.
 
