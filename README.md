@@ -136,7 +136,7 @@ Identified concurrent SSL/TLS encrypted C2 channel coordinating FTP data exfiltr
 
 ---
 
-- **CompTIA CySA+** (Cybersecurity Analyst) - Expected October 2025
+- **CompTIA CySA+** (Cybersecurity Analyst) - 2025
 - **Splunk Core Certified Power User** - 2025
 - **CompTIA Security+** - 2025
 
