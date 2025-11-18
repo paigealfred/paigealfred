@@ -58,7 +58,7 @@ Comprehensive investigation of unauthorized file transfer to external infrastruc
 
 ---
 
-### 🚨 [SSH Brute Force Detection & Alert Automation](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
+### ⚠️ [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
 **Tools:** Python, CSV
 
 Automated SOC tool that monitors authentication logs for SSH brute force attacks, detects suspicious activity based on configurable thresholds, and generates severity-based alerts for incident response.
