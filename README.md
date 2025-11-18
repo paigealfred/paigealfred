@@ -45,6 +45,18 @@ Detection Engineer specializing in SIEM correlation rule development, threat hun
 
 ## Featured Projects
 
+### ⚠️ [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
+**Tools:** Python, CSV
+
+Automated SOC tool that monitors authentication logs for SSH brute force attacks, detects suspicious activity based on configurable thresholds, and generates severity-based alerts for incident response.
+
+**Key Results:**
+- Built automated log parsing system analyzing authentication events
+- Created real-time alerting with configurable detection thresholds (5+ failed attempts)
+- Developed severity classification logic (high/medium risk levels)
+- Implemented CSV export for SOC workflow integration
+- Reduced manual log review through dictionary-based tracking
+
 ### 🔍 [FTP Data Exfiltration Investigation](https://github.com/paigealfred/ftp-exfiltration-investigation)
 **Tools:** Elastic SIEM, Zeek, Wireshark, Docket
 
@@ -58,17 +70,6 @@ Comprehensive investigation of unauthorized file transfer to external infrastruc
 
 ---
 
-### ⚠️ [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
-**Tools:** Python, CSV
-
-Automated SOC tool that monitors authentication logs for SSH brute force attacks, detects suspicious activity based on configurable thresholds, and generates severity-based alerts for incident response.
-
-**Key Results:**
-- Built automated log parsing system analyzing authentication events
-- Created real-time alerting with configurable detection thresholds (5+ failed attempts)
-- Developed severity classification logic (high/medium risk levels)
-- Implemented CSV export for SOC workflow integration
-- Reduced manual log review through dictionary-based tracking
 
 ### 🚨 [SSH Brute Force Detection](https://github.com/paigealfred/splunk-ssh-brute-force-detection)
 **Tools:** Splunk, SPL
