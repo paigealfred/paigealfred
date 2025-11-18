@@ -45,7 +45,7 @@ Detection Engineer specializing in SIEM correlation rule development, threat hun
 
 ## Featured Projects
 
-### ⚠️ [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
+### 🐍 [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
 **Tools:** Python, CSV
 
 Automated SOC tool that monitors authentication logs for SSH brute force attacks, detects suspicious activity based on configurable thresholds, and generates severity-based alerts for incident response.
