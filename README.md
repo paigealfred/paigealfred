@@ -56,6 +56,8 @@ Automated SOC tool that monitors authentication logs for SSH brute force attacks
 - Developed severity classification logic (high/medium risk levels)
 - Implemented CSV export for SOC workflow integration
 - Reduced manual log review through dictionary-based tracking
+  
+---
 
 ### 🔍 [FTP Data Exfiltration Investigation](https://github.com/paigealfred/ftp-exfiltration-investigation)
 **Tools:** Elastic SIEM, Zeek, Wireshark, Docket
