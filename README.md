@@ -57,9 +57,17 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 ## Featured Projects
 
 ### 🔑 [Azure Entra ID IAM Lab](https://github.com/paigealfred/Azure-Entra-ID-Identity-Access-Management-Lab)
-Configured enterprise identity and access management in Microsoft Entra ID with user provisioning, RBAC role assignments, security group management, and Conditional Access policies enforcing MFA for privileged accounts. Demonstrates zero-trust security principles and least privilege access control in Azure cloud environment.
+**Tools:** Microsoft Entra ID, Azure Portal, Entra ID Premium P1, PowerShell
 
-**Skills:** Microsoft Entra ID · RBAC · Conditional Access · User Provisioning · Zero Trust Security · Identity Governance
+Configured enterprise identity and access management in Microsoft Entra ID with user provisioning, RBAC role assignments, security group management, and Conditional Access policies enforcing MFA for privileged accounts.
+
+**Key Results:**
+* Provisioned 5 users with role-based security group assignments
+* Implemented RBAC with 3 administrative roles following least privilege principles
+* Created 4 security groups for department-based access control
+* Deployed Conditional Access policy enforcing MFA for IT_Admins group
+* Configured zero-trust security controls in report-only mode for testing
+* Demonstrated PAM principles through privileged account segregation
 
 ### 🐍 [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
 **Tools:** Python, CSV
