@@ -1,46 +1,56 @@
-# Detection Engineering Portfolio
+# Cybersecurity Portfolio
 
 ## About Me
+Cybersecurity professional specializing in Detection Engineering, SIEM operations, and Identity & Access Management. Experienced in building detection pipelines, developing correlation rules, investigating security incidents, and implementing enterprise IAM solutions across cloud and on-premises environments.
 
-Detection Engineer specializing in SIEM correlation rule development, threat hunting, and network forensics. Proven ability to build detection pipelines, investigate security incidents, and perform deep packet analysis across multiple security tools.
-
-**Currently seeking:** Remote Detection Engineer or SIEM Engineer roles
+**Currently seeking:** Remote Detection Engineer, SIEM Engineer, IAM Engineer, or IAM Analyst roles.
 
 ## Technical Expertise
 
-**SIEM Platforms & Query Languages**
-- Splunk Enterprise (SPL) - Correlation searches, real-time alerting, custom field extraction
-- Elastic Stack (KQL, Kibana, Logstash) - Detection rules, dashboards, log pipeline design
+### SIEM Platforms & Query Languages
+* **Splunk Enterprise (SPL)** - Correlation searches, real-time alerting, custom field extraction
+* **Elastic Stack (KQL, Kibana, Logstash)** - Detection rules, dashboards, log pipeline design
 
-**Network Security & Forensics**
-- Wireshark - Packet capture analysis, protocol investigation, TCP stream reconstruction
-- Zeek - Network traffic monitoring and protocol analysis
-- Suricata - IDS alert analysis and signature tuning
-- Docket - Targeted PCAP extraction and filtering
+### Identity & Access Management
+* **Microsoft Entra ID (Azure AD)** - User provisioning, RBAC, Conditional Access policies
+* **Privileged Access Management** - Role assignments, zero-trust implementation
+* **Identity Governance** - Security groups, least privilege access control
 
-**Protocol Analysis**
-- TCP/IP, DNS, FTP, SMB, SSL/TLS
-- Authentication protocols and attack patterns
-- Network-based threat detection
+### Network Security & Forensics
+* **Wireshark** - Packet capture analysis, protocol investigation, TCP stream reconstruction
+* **Zeek** - Network traffic monitoring and protocol analysis
+* **Suricata** - IDS alert analysis and signature tuning
+* **Docket** - Targeted PCAP extraction and filtering
 
-**Detection & Response**
-- MITRE ATT&CK framework mapping
-- Incident investigation and timeline reconstruction
-- Alert engineering and false positive reduction
-- Threat hunting methodologies
-- IOC extraction and correlation
+### Protocol Analysis
+* TCP/IP, DNS, FTP, SMB, SSL/TLS
+* Authentication protocols and attack patterns
+* Network-based threat detection
 
-**Security Frameworks**
-- NIST 800-61 Incident Response
-- Cyber Kill Chain
-- PCI DSS
-- CVSS scoring
+### Detection & Response
+* MITRE ATT&CK framework mapping
+* Incident investigation and timeline reconstruction
+* Alert engineering and false positive reduction
+* Threat hunting methodologies
+* IOC extraction and correlation
 
-**Programming & Automation**
-- Python scripting
-- Bash automation
-- SPL and KQL query development
+### Security Frameworks
+* NIST 800-61 Incident Response
+* Cyber Kill Chain
+* PCI DSS
+* CVSS scoring
 
+### Programming & Automation
+* Python scripting
+* Bash automation
+* PowerShell (Azure AD module)
+* SPL and KQL query development
+
+## Certifications
+* CompTIA Security+
+* CompTIA CySA+
+* Splunk Core Certified Power User
+* CyberArk Defender 
 ---
 
 ## Featured Projects
