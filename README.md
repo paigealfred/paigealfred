@@ -3,7 +3,7 @@
 ## About Me
 Cybersecurity professional specializing in Detection Engineering, SIEM operations, and Identity & Access Management. Experienced in building detection pipelines, developing correlation rules, investigating security incidents, and implementing enterprise IAM solutions across cloud and on-premises environments.
 
-**Currently seeking:** Remote Detection Engineer, SIEM Engineer, IAM Engineer, or IAM Analyst roles.
+**Currently seeking:** Remote Detection Engineer, SIEM Engineer, IAM Engineer, IAM Analyst role, PAM Enginner, or PAM Analyst roles.
 
 ## Technical Expertise
 
@@ -15,6 +15,7 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 * **Microsoft Entra ID (Azure AD)** - User provisioning, RBAC, Conditional Access policies
 * **Privileged Access Management** - Role assignments, zero-trust implementation
 * **Identity Governance** - Security groups, least privilege access control
+* **Privileged Access Management:** Implemented foundational PAM principles through role segregation, least privilege assignments, and MFA enforcement for administrative accounts via Conditional Access policies.
 
 ### Network Security & Forensics
 * **Wireshark** - Packet capture analysis, protocol investigation, TCP stream reconstruction
