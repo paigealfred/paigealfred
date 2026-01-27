@@ -51,7 +51,6 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 * CompTIA Security+
 * CompTIA CySA+
 * Splunk Core Certified Power User
-* CyberArk Defender 
 ---
 
 ## Featured Projects
