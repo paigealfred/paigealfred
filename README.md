@@ -47,15 +47,15 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ### Cribl & SIEM Migration
 
-• Cribl Stream pipeline design for multi-source log ingestion  
-• Splunk HEC endpoint configuration (token-based auth, 8088)  
-• Key=value and JSON log parsing for firewall and Windows Security events  
-• Field normalization for SIEM/data-lake analytics (src/dst IP, user, action, zones, etc.)  
-• Routing logic for selective forwarding to SIEM and data-lake destinations  
-• AWS S3 cold-storage integration (bucket design, prefixes, gzip compression)  
-• IAM user/key configuration for secure Cribl → S3 access  
-• Lab simulation of Splunk → SentinelOne data-lake migration patterns  
-• Log reduction strategies for cost optimization while preserving detection value
+* Cribl Stream pipeline design for multi-source log ingestion  
+* Splunk HEC endpoint configuration (token-based auth, 8088)  
+* Key=value and JSON log parsing for firewall and Windows Security events  
+* Field normalization for SIEM/data-lake analytics (src/dst IP, user, action, zones, etc.)  
+* Routing logic for selective forwarding to SIEM and data-lake destinations  
+* AWS S3 cold-storage integration (bucket design, prefixes, gzip compression)  
+* IAM user/key configuration for secure Cribl → S3 access  
+* Lab simulation of Splunk → SentinelOne data-lake migration patterns  
+* Log reduction strategies for cost optimization while preserving detection value
 
 ## Certifications
 * CompTIA Security+
