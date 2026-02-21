@@ -53,6 +53,19 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 🧱 [Cribl Stream Log Normalization Pipeline](https://github.com/paigealfred/Cribl-Stream-Log-Normalization-Pipeline)
+**Tools:** Cribl Stream (Cribl.Cloud), AWS S3, AWS IAM, PowerShell  
+
+Built an end-to-end log pipeline that ingests firewall and Windows Security logs over a Splunk-compatible HEC endpoint, normalizes key fields, and archives compressed events into AWS S3 to simulate SIEM/data-lake migration work.
+
+**Key Results:**
+* Configured Splunk HEC-compatible input on port 8088 with token-based authentication  
+* Built `palo_alto_traffic` and `wineventlogs` pipelines for key=value and JSON log formats  
+* Normalized core fields such as `src_ip`, `dst_ip`, `action`, `user`, and `zone_src/zone_dst` for analytics  
+* Implemented routing logic to send only `sourcetype=pan:traffic` events to the S3 cold archive  
+* Deployed AWS S3 destination (`cribl-security-logs-paige`) with gzip compression for long-term storage  
+* Secured S3 access using a dedicated IAM user and access keys configured in Cribl
+
 ### 🔑 [Azure Entra ID IAM Lab](https://github.com/paigealfred/Azure-Entra-ID-Identity-Access-Management-Lab)
 **Tools:** Microsoft Entra ID, Azure Portal, Entra ID Premium P1, PowerShell
 
