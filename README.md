@@ -63,6 +63,17 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 🔁 [Splunk to Elastic Pipeline via Cribl Stream](https://github.com/paigealfred/Splunk-to-Elastic-Pipeline-via-Cribl-Stream)
+**Tools:** Cribl Stream, Splunk Enterprise, Elastic Cloud, Kibana
+
+Configured a Cribl Stream pipeline to ingest logs from Splunk Enterprise via TCP forwarding, normalize and map fields into ECS-compliant schema, and route processed data to Elastic Cloud. Validated end-to-end pipeline functionality in Kibana Discover confirming field extraction accuracy across 807+ ingested documents.
+
+**Key Results:**
+- Forwarded Splunk Enterprise logs to Cribl Stream via TCP on port 9997
+- Built normalization pipeline mapping Splunk fields to ECS schema with 33 output fields
+- Delivered processed events to Elastic Cloud index `splunk-logs` via authenticated Elasticsearch bulk API
+- Confirmed 807+ documents ingested and queryable in Kibana Discover with full field fidelity
+
 ### 🧱 [Cribl Stream Log Normalization Pipeline](https://github.com/paigealfred/Cribl-Stream-Log-Normalization-Pipeline)
 **Tools:** Cribl Stream (Cribl.Cloud), AWS S3, AWS IAM, PowerShell  
 
