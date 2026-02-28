@@ -63,6 +63,17 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 🔒 [Cribl Stream Sensitive Data Redaction Pipeline](https://github.com/paigealfred/cribl-sensitive-data-redaction)
+**Tools:** Cribl Stream, Regex, VS Code
+
+Built a sensitive data redaction pipeline in Cribl Stream that intercepts log data in transit and masks PII, PCI, and PHI fields before they reach downstream destinations, ensuring compliance with PCI DSS and HIPAA requirements.
+
+**Key Results:**
+* Configured 5 Mask functions using custom regex rules targeting credit cards, SSNs, passwords, API tokens, and email addresses
+* Applied Luhn-format card number detection covering Visa, Mastercard, Amex, and Discover patterns
+* Validated full redaction across 6 synthetic log events confirming zero sensitive data reaches downstream systems
+* Exported pipeline as importable JSON for version control and redeployment across environments
+
 ### 🔁 [Splunk to Elastic Pipeline via Cribl Stream](https://github.com/paigealfred/Splunk-to-Elastic-Pipeline-via-Cribl-Stream)
 **Tools:** Cribl Stream, Splunk Enterprise, Elastic Cloud, Kibana
 
