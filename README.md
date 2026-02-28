@@ -63,7 +63,7 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
-### 🔒 [Cribl Stream Sensitive Data Redaction Pipeline](https://github.com/paigealfred/cribl-sensitive-data-redaction)
+### 🔒 [Cribl Stream Sensitive Data Redaction Pipeline]([https://github.com/paigealfred/cribl-sensitive-data-redaction](https://github.com/paigealfred/Cribl-Stream-Sensitive-Data-Redaction-Pipeline))
 **Tools:** Cribl Stream, Regex, VS Code
 
 Built a sensitive data redaction pipeline in Cribl Stream that intercepts log data in transit and masks PII, PCI, and PHI fields before they reach downstream destinations, ensuring compliance with PCI DSS and HIPAA requirements.
