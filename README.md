@@ -63,6 +63,17 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 🛡️ [SSH Brute Force Detection Pipeline](https://github.com/paigealfred/ssh-brute-force-detection-t1110001)
+**Tools:** Cribl.Cloud, Elastic Cloud, PowerShell, MITRE ATT&CK
+
+Built an end to end detection engineering pipeline for T1110.001 Brute Force: Password Guessing. Took raw Linux syslog authentication events, routed them through Cribl Stream for ECS normalization, landed the data in Elastic Cloud, and wrote a detection rule that fires on the spray to success pattern.
+
+**Key Results:**
+* Built a 3 function Cribl pipeline (Parser, Rename, Eval) that normalizes raw syslog to ECS including host.name, source.ip, user.name, event.outcome, and event.action
+* Sent fake auth logs from a Windows machine to Cribl.Cloud via UDP using PowerShell confirming full ingestion of 14 events
+* Wrote and validated a KQL detection query in Kibana Discover returning 11 matching documents across the brute force sequence
+* Created a Kibana Elasticsearch query rule with threshold tuning and documented a SOC playbook covering what to check when encountered and when to escalate
+
 ### 🔒 [Cribl Stream Sensitive Data Redaction Pipeline](https://github.com/paigealfred/Cribl-Stream-Sensitive-Data-Redaction-Pipeline)
 **Tools:** Cribl Stream, Regex, VS Code
 
