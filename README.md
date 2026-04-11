@@ -63,6 +63,17 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 🕵️ [AI Agent IR Investigation](https://github.com/paigealfred/AI-Agent-IR-Investigation)
+**Tools:** Python, LangChain, GPT-4o-mini, PowerShell
+
+Built a prompt injection attack simulation against a LangChain-based AI agent and conducted a full incident response investigation. Deployed an agent with file and knowledge base access, executed three injection techniques, and investigated the compromise from structured JSON logs.
+
+**Key Results:**
+* Demonstrated role confusion as a more effective attack vector than direct instruction override — social engineering bypasses model safety alignment where explicit override commands fail
+* Reconstructed full attack timeline from structured JSON logs capturing timestamps, tool invocations, and agent outputs across all five interaction events
+* Identified behavioral IOCs including anomalous search_knowledge_base calls and elevated tool_count on non-knowledge inputs — detectable even on failed attack attempts
+* Produced a formal incident report with root cause analysis, MITRE ATT&CK mapping, and remediation recommendations covering output filtering, least privilege tool access, and behavioral monitoring
+
 ### 🛡️ [SSH Brute Force End To End Detection Pipeline](https://github.com/paigealfred/SSH-Brute-Force-Detection---End-to-End-Detection-Engineering-Pipeline)
 **Tools:** Cribl.Cloud, Elastic Cloud, PowerShell, MITRE ATT&CK
 
