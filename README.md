@@ -63,6 +63,20 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+
+### 🤖 [OpenClaw AI Agent Prompt Injection IR Investigation](https://github.com/paigealfred/Open-Claw-AI-Agent-Prompt-Injection-Incident-Response-Investigation)
+
+**Tools:** OpenClaw, Python, LLM Agents, PowerShell
+
+Simulated a prompt injection attack against an OpenClaw-based AI agent with tool access and conducted a full incident response investigation. Configured agent permissions, executed a malicious prompt to trigger unintended tool usage, and analyzed the compromise through structured outputs and forensic review.
+
+**Key Results:**
+* Demonstrated how over-permissive tool access enables prompt injection attacks to trigger unintended file reads and knowledge base queries
+* Identified misconfigured agent permissions as the primary root cause, expanding the attack surface beyond intended boundaries
+* Reconstructed attacker behavior through detailed output analysis and timeline reconstruction of tool usage
+* Produced a formal incident response investigation outlining attack flow, exposed data, and remediation strategies including least privilege and permission hardening
+
+
 ### 🕵️ [AI Agent IR Investigation](https://github.com/paigealfred/AI-Agent-IR-Investigation)
 **Tools:** Python, LangChain, GPT-4o-mini, PowerShell
 
