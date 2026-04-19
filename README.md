@@ -76,6 +76,7 @@ Simulated a prompt injection attack against an OpenClaw-based AI agent with tool
 * Reconstructed attacker behavior through detailed output analysis and timeline reconstruction of tool usage
 * Produced a formal incident response investigation outlining attack flow, exposed data, and remediation strategies including least privilege and permission hardening
 
+---
 
 ### 🕵️ [AI Agent IR Investigation](https://github.com/paigealfred/AI-Agent-IR-Investigation)
 **Tools:** Python, LangChain, GPT-4o-mini, PowerShell
@@ -88,6 +89,8 @@ Built a prompt injection attack simulation against a LangChain-based AI agent an
 * Identified behavioral IOCs including anomalous search_knowledge_base calls and elevated tool_count on non-knowledge inputs — detectable even on failed attack attempts
 * Produced a formal incident report with root cause analysis, MITRE ATT&CK mapping, and remediation recommendations covering output filtering, least privilege tool access, and behavioral monitoring
 
+---
+
 ### 🛡️ [SSH Brute Force End To End Detection Pipeline](https://github.com/paigealfred/SSH-Brute-Force-Detection---End-to-End-Detection-Engineering-Pipeline)
 **Tools:** Cribl.Cloud, Elastic Cloud, PowerShell, MITRE ATT&CK
 
@@ -98,6 +101,8 @@ Built an end to end detection engineering pipeline for T1110.001 Brute Force: Pa
 * Sent fake auth logs from a Windows machine to Cribl.Cloud via UDP using PowerShell confirming full ingestion of 14 events
 * Wrote and validated a KQL detection query in Kibana Discover returning 11 matching documents across the brute force sequence
 * Created a Kibana Elasticsearch query rule with threshold tuning and documented a SOC playbook covering what to check when encountered and when to escalate
+
+---
 
 ### 🔒 [Cribl Stream Sensitive Data Redaction Pipeline](https://github.com/paigealfred/Cribl-Stream-Sensitive-Data-Redaction-Pipeline)
 **Tools:** Cribl Stream, Regex, VS Code
@@ -110,6 +115,8 @@ Built a sensitive data redaction pipeline in Cribl Stream that intercepts log da
 * Validated full redaction across 6 synthetic log events confirming zero sensitive data reaches downstream systems
 * Exported pipeline as importable JSON for version control and redeployment across environments
 
+---
+
 ### 🔁 [Splunk to Elastic Pipeline via Cribl Stream](https://github.com/paigealfred/Splunk-to-Elastic-Pipeline-via-Cribl-Stream)
 **Tools:** Cribl Stream, Splunk Enterprise, Elastic Cloud, Kibana
 
@@ -120,6 +127,8 @@ Configured a Cribl Stream pipeline to ingest logs from Splunk Enterprise via TCP
 - Built normalization pipeline mapping Splunk fields to ECS schema with 33 output fields
 - Delivered processed events to Elastic Cloud index `splunk-logs` via authenticated Elasticsearch bulk API
 - Confirmed 807+ documents ingested and queryable in Kibana Discover with full field fidelity
+
+---
 
 ### 🧱 [Cribl Stream Log Normalization Pipeline](https://github.com/paigealfred/Cribl-Stream-Log-Normalization-Pipeline)
 **Tools:** Cribl Stream (Cribl.Cloud), AWS S3, AWS IAM, PowerShell  
@@ -134,6 +143,8 @@ Built an end-to-end log pipeline that ingests firewall and Windows Security logs
 * Deployed AWS S3 destination (`cribl-security-logs-paige`) with gzip compression for long-term storage  
 * Secured S3 access using a dedicated IAM user and access keys configured in Cribl
 
+---
+
 ### 🔑 [Azure Entra ID IAM Lab](https://github.com/paigealfred/Azure-Entra-ID-Identity-Access-Management-Lab)
 **Tools:** Microsoft Entra ID, Azure Portal, Entra ID Premium P1, PowerShell
 
@@ -146,6 +157,8 @@ Configured enterprise identity and access management in Microsoft Entra ID with 
 * Deployed Conditional Access policy enforcing MFA for IT_Admins group
 * Configured zero-trust security controls in report-only mode for testing
 * Demonstrated PAM principles through privileged account segregation
+
+---
 
 ### 🐍 [Python Automated Brute Force Attempt](https://github.com/paigealfred/Brute-Force-Detection-Alert-Automation)
 **Tools:** Python, CSV
