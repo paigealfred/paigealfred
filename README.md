@@ -55,6 +55,28 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 * AWS IAM user/access key configuration for secure log delivery
 * Log volume reduction and optimization for cost/performance
 
+### Terraform & Infrastructure as Code (IaC)
+
+* Terraform (AWS provider, resource provisioning, state management, IaC workflows)
+* AWS S3 bucket deployment and infrastructure automation
+* AWS IAM user creation and access key authentication for Terraform workflows
+* AWS CLI configuration and Terraform authentication setup
+* Terraform lifecycle execution (`terraform init`, `terraform validate`, `terraform plan`, `terraform apply`)
+* Infrastructure provisioning through code instead of manual cloud deployment
+* Terraform project structure, provider configuration, and state file management
+* Foundational DevSecOps and cloud infrastructure automation concepts
+
+### AI Security & Agentic Systems
+
+* OpenClaw AI agent prompt injection incident response investigation
+* Prompt injection attack simulation against LLM agents with external tool access
+* AI agent permission analysis and tool abuse investigation
+* LLM agent workflow reconstruction and forensic output analysis
+* AI security concepts including trust boundaries, privilege escalation, and unrestricted tool access
+* Prompt engineering and adversarial testing against agentic AI systems
+* Autonomous tool orchestration and AI agent behavior analysis
+* Incident response documentation and remediation strategy development for AI systems
+
 ## Certifications
 * CompTIA Security+
 * CompTIA CySA+
