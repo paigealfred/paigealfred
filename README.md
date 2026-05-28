@@ -63,6 +63,21 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+## 🌩️ [Terraform Secure SIEM Log Archive on AWS](https://github.com/paigealfred/Terraform-Secure-SIEM-Log-Archive-on-AWS)
+
+**Tools:** Terraform, AWS S3, AWS IAM, AWS CLI, PowerShell, VS Code
+
+Built and deployed AWS infrastructure using Terraform to simulate a secure SIEM/security log archive workflow through Infrastructure as Code (IaC). Configured AWS authentication with IAM access keys and AWS CLI, created Terraform provider and resource configurations, initialized Terraform state management, and provisioned an AWS S3 bucket entirely through code-based deployment.
+
+**Key Results:**
+* Successfully configured Terraform with AWS provider authentication using IAM and AWS CLI credentials
+* Automated AWS S3 bucket deployment using Infrastructure as Code instead of manual AWS Console provisioning
+* Executed the full Terraform lifecycle including `terraform init`, `terraform validate`, `terraform plan`, and `terraform apply`
+* Demonstrated understanding of Terraform providers, resources, state files, and infrastructure deployment workflows
+* Built a foundational DevSecOps/IaC project aligned with cloud security and SIEM engineering environments
+
+---
+
 
 ### 🤖 [OpenClaw AI Agent Prompt Injection IR Investigation](https://github.com/paigealfred/Open-Claw-AI-Agent-Prompt-Injection-Incident-Response-Investigation)
 
