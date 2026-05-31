@@ -85,7 +85,7 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
-## 🌩️ [Terraform Secure SIEM Log Archive on AWS](https://github.com/paigealfred/Terraform-Secure-SIEM-Log-Archive-on-AWS)
+### 🌩️ [Terraform Secure SIEM Log Archive on AWS](https://github.com/paigealfred/Terraform-Secure-SIEM-Log-Archive-on-AWS)
 
 **Tools:** Terraform, AWS S3, AWS IAM, AWS CLI, PowerShell, VS Code
 
