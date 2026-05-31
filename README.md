@@ -85,6 +85,25 @@ Cybersecurity professional specializing in Detection Engineering, SIEM operation
 
 ## Featured Projects
 
+### 📚 [Terraform AWS SIEM Log Archive – Encryption, IAM & Lifecycle Hardening](https://github.com/paigealfred/Terraform-AWS-SIEM-Log-Archive-Encryption-IAM-Lifecycle-Hardening)
+
+**Tools:** Terraform, AWS S3, AWS IAM, AWS CLI, PowerShell, VS Code
+
+Built and secured AWS infrastructure using Terraform to simulate a SIEM/security log archive workflow through Infrastructure as Code (IaC). Provisioned an AWS S3 bucket and implemented security controls including server-side encryption, versioning, public access blocking, IAM least-privilege access controls, and automated lifecycle retention policies. Validated and deployed infrastructure through Terraform while verifying all security configurations directly within AWS.
+
+**Key Results:**
+
+* Automated AWS infrastructure deployment using Terraform instead of manual AWS Console provisioning
+* Implemented server-side encryption (SSE-S3) to protect log data stored within the S3 bucket
+* Configured S3 versioning to preserve historical object versions and improve recovery capabilities
+* Enforced S3 public access blocking to reduce cloud storage exposure risks
+* Created IAM users and least-privilege IAM policies to control access to security log storage
+* Implemented automated 90-day lifecycle retention policies for log management and storage governance
+* Executed the complete Terraform workflow including `terraform init`, `terraform validate`, `terraform plan`, and `terraform apply`
+* Demonstrated Infrastructure as Code (IaC), cloud security hardening, IAM management, and AWS resource provisioning
+
+---
+
 ### 🌩️ [Terraform Secure SIEM Log Archive on AWS](https://github.com/paigealfred/Terraform-Secure-SIEM-Log-Archive-on-AWS)
 
 **Tools:** Terraform, AWS S3, AWS IAM, AWS CLI, PowerShell, VS Code
